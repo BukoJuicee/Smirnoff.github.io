@@ -9,14 +9,14 @@
   
   body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 10px;
     line-height: 1.5;
   }
   
   .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px 0;
   }
   .container p{
     font-size: 1.5rem;
@@ -25,28 +25,29 @@
   /* Navigation Styles */
   nav {
     background-color: #333;
-    height: 15vh;
-    color: #fff;
+    height: 12vh;
+  
   }
   
   nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    padding-left: 120%;
+   
   }
   
   nav li {
     display: inline-block;
     margin-right: 20px;
+    
   }
   
   nav a {
     display: block;
     color: #fff;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: bold;
     text-decoration: none;
-    padding: 10px;
+    padding: 3px;
     transition: background-color 0.3s ease;
   }
   
@@ -54,25 +55,26 @@
   header {
     background-image: url('Pictures/Maroon.jpg');
     background-size: cover;
-    height: 325px;
+    height: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     text-align: center;
+    
   }
   
   header h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 35px;
+    margin-bottom: 10px;
   }
-
+  
   /* THIS IS THE TOP LOGO OF SMIRNOFF */
   .logo{
     cursor: pointer;
     margin-right: auto;
-    width: 175px;
-    
+    width: 83px;
+   
  }   
   
   /* Main Content Styles */
@@ -80,17 +82,19 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 235px 0;
+    padding: 100px 0;
+    padding-left: 10%;
+  
    
   }
   
   section {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
   
   section h2 {
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 20px
     
   }
   
@@ -98,23 +102,23 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    font-size: 22px;
+    font-size: 20px;
 
   }
   
   li strong {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
   }
   
   form {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 500px;
   }
   
   label {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 10px;
     
   }
@@ -128,12 +132,12 @@
   }
   
   button {
-    padding: 35px;
-    font-size: 20px;
+    padding: 25px;
+    font-size: 15px;
     background-color: #333;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }

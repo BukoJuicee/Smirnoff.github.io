@@ -10,7 +10,7 @@
 li, a, button{
     font-family: "Poppins", sans-serif;
     font-weight: 620;
-    font-size: 27px;
+    font-size: 18px;
     color: black;
     text-decoration: none;
 
@@ -22,14 +22,14 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 5px 3%;
 }
 
 /* THIS IS THE TOP LOGO OF SMIRNOFF */
 .logo{
     cursor: pointer;
     margin-right: auto;
-    width: 175px;
+    width: 82px;
 }
 
 /* THIS IS THE NAV'S  */
@@ -39,7 +39,7 @@ header{
 .nav_links li{
     display: inline-flex;
     font-family: 'Poppins' sans-serif;
-    width: 130px;
+    width: 115px;
    
 }
 
@@ -72,7 +72,7 @@ button:hover{
     background-color: rgba(255, 255, 255, 0.89);
 }
 .section{
-    width: 120%;
+    width: 100%;
     min-height: 90vh;
     background-color: #ddd;
 
@@ -85,41 +85,46 @@ button:hover{
 }
 .conten-section{
     float: left;
-    width: 55%;
+    width: 65%;
 }
 .image-section{
     float: right;
     justify-content: right;
-    width: 40%;
-    margin-top: -17cm;
+    width: 35%;
+    margin-top: -7.5cm;
+  
     
 }
 .image-section img{
-    width: 190%;
+    width: 230%;
     height: auto;
+    padding-left: 15ch;
     
 
 }
 .conten-section .title{
     text-transform: uppercase;
-    font-size: 28px;
-    margin: 50px;
-    font-family: 'Poppins' sans-serif
+    font-size: 15px;
+    margin: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 
 
 }
 .conten-section .content h3{
-    color: #5d5d5d;
-    font-size: 25px;
-    margin: 50px;
+    color: #4b4848;
+    font-size: 20px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .conten-section .content p{
     display: flex;
     font-family: 'poppins' sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     line-height: 1.5;
-    margin: 50px;
-    padding-right: 800px;
+    margin: 10px;
+    padding-right: 330px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }  
 /* TEAAAMS CONTAINER */
 
@@ -131,30 +136,40 @@ body{
     height: 150;
     font-family: 'Poppins' sans-serif;
 }
+
 .Teams-container{
+    display: flex;
+    flex-direction: column;
     margin: 20px 40px;
     color: white;
 }
+
 .heading{
-    font-size: 60px;
-    padding-bottom: 2cm;
+    font-size: 35px;
+    padding-bottom: 2%;
     color: white;
 }
+
 .heading span{
     font-style: italic;
     font-size: 30px;
 }
-.profile{
+
+.profiles{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    margin: 20px 80px;
 }
-.profile{
+
+/*.profile{
+    display: flex;
+    justify-content: space-between;
     flex-basis: 260px;
 }
+*/
 .profiles .profile-img {
-    height: 260px;
-    width: 260px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     filter: grayscale(100%);
     cursor: pointer;
@@ -165,17 +180,59 @@ body{
     filter: grayscale(0);
 }
 .user-name{
-    margin-top: 30px;
-    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    font-size: 25px;
+
 }
 .profile{
-    font-size: 50px;
+    font-size: 51px;
     font-weight: 100;
     letter-spacing: 3px;
     color: #ccc;
+
 }
+
 .profile{
     font-size: 16px;
     margin-top: 20px;
     text-align: justify;
 }
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+}
+
+.name h3{
+    margin-left: 3vw;
+    font-size: 28px;
+    color: black;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.work h4{
+    font-size: 13px;
+    color: white;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.position{
+    display: flex;
+    flex-direction: column;  
+}
+
+
+
